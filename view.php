@@ -26,7 +26,7 @@ if(isset($_POST["donor_id"])){
 		</tr> 
 		<tr>
 			<td width="30%">Facebook</td>
-			<td width="70%"><a href="'.$row["FBID"].'">See Profile</a></td>
+			<td width="70%"><a href="https://facebook.com/'.$row["FBID"].'">See Profile</a></td>
 		</tr> 
 		<tr>
 			<td width="30%"><label>Blood Group</label></td>
@@ -38,7 +38,7 @@ if(isset($_POST["donor_id"])){
 		</tr> 
 		<tr>
 			<td width="30%"><label>Remark</label></td>
-			<td width="70%">'.$row["Remark"].'</td>
+			<td width="70%">'.$row["Remarks"].'</td>
 		</tr> 
 
 		'; 

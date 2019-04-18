@@ -2,26 +2,26 @@
 <html>
 
 <head>
-  <title>Blood Bank Bangladesh - ব্ল্যাড ব্যাংক বাংলাদেশ</title>
+  <title>AlorJibon.Org - Blood Directory | Find Blood Donors Information</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css"> </head>
-
+ <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <body>
-  <div class="text-center py-0" style="background-image: url('images/bg.png');">
+  <div class="text-center py-0" style="background-image: url('images/sub_banner.png'); height:600px;" >
     <div class="container py-5">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="display-3 mb-4 text-primary">ব্ল্যাড ব্যাংক</h1>
+          <img src="images/logo.png" height="30%"/>
           <p class="lead mb-5">রক্ত দিন, জীবন বাচান</p>
-          <a href="#" data-target="#BeADonor" data-toggle="modal" class="btn btn-lg mx-1 btn-secondary">Be A Donor</a>
+          <!-- <a href="#" data-target="#BeADonor" data-toggle="modal" class="btn btn-lg mx-1 btn-secondary">Be A Donor</a> -->
+          <a href="register.php" class="btn btn-lg mx-1 btn-secondary">Be A Donor</a>
           <a href="#" data-target="#SearchDonor" data-toggle="modal" class="btn btn-lg btn-primary mx-1">Find Donor</a>
         </div>
       </div>
     </div>
   </div>
-
 
 
 
@@ -32,11 +32,75 @@
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">রক্ত দাতা হিসেবে নিবন্ধন করুন</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        
+
+        আগে নিবন্ধন করেছেন কিন্তু তথ্য আপডেট করতে চান? <button type="button" class="btn btn-primary">Login</button><br/>
+      </hr/>
+      <br/> 
+
+      <h2>নিবন্ধন ফর্ম </h2>
+
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+
+
+
+
+
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -92,9 +156,9 @@
 
       <div class="input-group mb-3">
       <div class="input-group-prepend">
-      <label class="input-group-text" for="city">Select Area</label>
+      <label class="input-group-text" for="area">Select Area</label>
     </div>
-        <select class="custom-select" id="city">
+        <select class="custom-select" id="area">
            
             <option value="">All Area</option>
             
@@ -126,7 +190,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="pb-3 text-secondary">দ্রুত বর্ধনশীল বাংলাদেশী ব্ল্যাড ব্যাংক</h1>
+          <h1 class="pb-3 text-secondary">দ্রুত বর্ধনশীল বাংলাদেশি  রক্তদাতাদের তালিকা  </h1>
         </div>
       </div>
 
@@ -138,7 +202,7 @@
             </div>
             <div class="col-10 text-lg-right text-left order-lg-1">
               <h4 class="text-primary">সম্পুর্ণ বিনামুল্যে</h4>
-              <p>আপনার প্রয়োজনীয় রক্ত পেতে সঠিক ব্যক্তি খুজে বের করতে সাহায্য করবে ব্ল্যাড ব্যাংক। কোন সাবস্ক্রিপশন চার্জ ছাড়া</p>
+              <p>আপনার প্রয়োজনীয় রক্ত পেতে সঠিক ব্যক্তি খুজে বের করতে সাহায্য করবে আলোর জীবন পোর্টাল, কোন সাবস্ক্রিপশন চার্জ ছাড়া</p>
             </div>
           </div>
           <div class="row my-5">
@@ -147,7 +211,7 @@
             </div>
             <div class="col-10 text-lg-right text-left order-lg-1">
               <h4 class="text-primary">রক্তদাতা হোন!&nbsp;</h4>
-              <p>সাহায্য করতে চান? জীবন বাচানোর চেয়ে বড় সুযোগ আর কি হতে পারে? সাইন আপ করে নথিভুক্ত হলে প্রয়োজনে পাশে পাবে আপনাকে</p>
+              <p>সাহায্য করতে চান? জীবন বাঁচানোর চেয়ে বড় সুযোগ আর কি হতে পারে? সাইন আপ করে নথিভুক্ত হলে প্রয়োজনে পাশে পাবে আপনাকে</p>
             </div>
           </div>
         </div>
@@ -158,7 +222,7 @@
             </div>
             <div class="col-10">
               <h4 class="text-primary">সহজ ইন্টারফেস</h4>
-              <p>সহজেই খুজে বের করুন রক্তদাতা কে। আমাদের বড় তথ্য ডাটা হতে যথাযথ ফিল্টার সেট করলেই তথ্য পাওয়া যাবে।&nbsp;</p>
+              <p>সহজেই খুজে বের করুন রক্তদাতা কে। আমাদের বড় তথ্য ভান্ডার হতে যথাযথ ফিল্টার সেট করলেই তথ্য পাওয়া যাবে।&nbsp;</p>
             </div>
           </div>
           <div class="row my-5">
@@ -167,7 +231,7 @@
             </div>
             <div class="col-10">
               <h4 class="text-primary">সেচ্ছাসেবক হোন!</h4>
-              <p>এই মহৎ এবং খুবই গুরুত্বপুর্ণ কাজে সেচ্ছাসেবক হিসেবে কাজ করতে চান? যোগাযোগ করুন আমাদের সাথে।&nbsp;</p>
+              <p>এই মহৎ এবং খুবই গুরুত্বপুর্ণ কাজে সেচ্ছাসেবক হিসেবে কাজ করতে চান? <a href="https://www.facebook.com/alorjibon.org/">যোগাযোগ করুন</a> আমাদের সাথে।&nbsp;</p>
             </div>
           </div>
         </div>
@@ -178,63 +242,31 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 my-3">
-          <h1 class="display-4 text-white text-md-left text-center">শেয়ার করে সবাইকে জানান!</h1>
+          <h1 class="display-4 text-white text-md-left text-center">সোশ্যাল মিডিয়াতে যুক্ত হোনঃ  </h1>
         </div>
         <div class="col-md-4  text-center align-self-center">
-          <a href="https://www.facebook.com/" target="_blank">
+         <a href="https://www.facebook.com/alorjibon.org/" target="_blank">
             <i class="fa fa-fw fa-facebook fa-3x text-white mx-3"></i>
           </a>
-          <a href="https://twitter.com/" target="_blank">
-            <i class="fa fa-fw fa-twitter fa-3x text-white mx-3"></i>
+          <a href="https://www.facebook.com/groups/alorjibon.org" target="_blank">
+            <i class="fa fa-fw fa-facebook fa-3x text-white mx-3"></i>
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <i class="fa fa-fw fa-instagram fa-3x text-white mx-3"></i>
+          <a href="https://www.youtube.com/channel/UCu4FekxNuwhwdCY6pzAgXDA" target="_blank">
+            <i class="fa fa-fw fa-youtube fa-3x text-white mx-3"></i>
           </a>
+          <!--<a href="https://www.instagram.com/" target="_blank">-->
+          <!--  <i class="fa fa-fw fa-instagram fa-3x text-white mx-3"></i>-->
+          <!--</a>-->
         </div>
       </div>
     </div>
   </div>
   <div class="py-5 bg-dark text-white">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <p class="lead">আমাদের কাছ থেকে নিয়মিত আপডেট নিন!&nbsp;</p>
-          <form class="form-inline">
-            <div class="form-group">
-              <input type="email" class="form-control" placeholder="Your e-mail here"> </div>
-            <button type="submit" class="btn btn-primary ml-3">Subscribe</button>
-          </form>
-        </div>
-        <div class="col-12 col-md-6 align-self-center">
-          <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone">আমাদের সম্পর্কে</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo">সোশ্যাল মিডিয়া
-                <br>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link" data-toggle="tab" data-target="#tabthree">যোগাযোগ</a>
-            </li>
-          </ul>
-          <div class="tab-content mt-2">
-            <div class="tab-pane fade show active" id="tabone" role="tabpanel">
-              <p class="">সাউথইস্ট বিশ্ববিদ্যালয়ের কম্পিউটার বিজ্ঞান ও প্রকৌশল বিভাগের ৪৫ তম ব্যাচের প্রজেক্ট ব্ল্যাড। আরো জানুন!&nbsp;</p>
-            </div>
-            <div class="tab-pane fade" id="tabtwo" role="tabpanel">
-              <p class="">Tab pane two. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="tab-pane fade" id="tabthree" role="tabpanel">
-              <p class="">Tab pane three. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+   
       <div class="row">
         <div class="col-md-12 mt-3 text-center">
-          <p>© কপিরাইট ২০১৮। সর্বসত্ব সংরক্ষিত</p>
+          <p>Contact Email: <a href="mailto:alorjibon.org@gmail.com">alorjibon.org@gmail.com</a></p>
         </div>
       </div>
     </div>
